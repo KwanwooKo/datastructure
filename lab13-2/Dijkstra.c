@@ -88,6 +88,7 @@ void deleteGraph(Graph* g) {
         free(g->vertices[i]);
     }
     free(g->vertices);
+	free(g);
 }
 
 void printShortestPath(Graph* g) {
