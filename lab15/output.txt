@@ -1,0 +1,15 @@
+insert 1 into address 1
+insert 11 into address 4
+insert 21 into address 0
+insert 7 into address 2
+insert 6 into address 6
+insertion error : 7 already exists at address 2
+insert 5 into address 5
+insert 3 into address 3
+insertion error : table is full
+5 is in the table
+4 is not in the table
+7 is in the table
+15 is not in the table
+21 1 7 3 11 5 6 
+
